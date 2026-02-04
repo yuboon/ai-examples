@@ -1,0 +1,16 @@
+﻿{
+  "name": "codecli",
+  "version": "1.0.0",
+  "private": true,
+  "bin": {
+    "codecli": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.5"
+  }
+}
