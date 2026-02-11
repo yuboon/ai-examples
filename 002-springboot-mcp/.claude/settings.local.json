@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "mcp__calendar-mcp__get_calendar_events"
+    ]
+  }
+}
